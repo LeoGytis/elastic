@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+:root {
+	--color-white: #fcf8f4;
+	--color-rubinas: #5a2230;
+	--color-perlas: #efe8db;
+}
+h body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
 		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
