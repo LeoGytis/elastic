@@ -1,30 +1,36 @@
 import HeroImage from '../../images/hero.png';
+import Button from '../ui/Button';
 
 const SectionHero = () => {
 	return (
-		<section className="relative w-full min-h-[600px] flex items-center">
-			{/* Background Image */}
+		<section className="relative flex items-center w-full h-dvh h-[889px]">
 			<div className="absolute inset-0 z-0">
 				<img
 					src={HeroImage}
 					alt="hero_image"
-					className="object-cover"
+					className="object-cover w-full h-full"
 				/>
-				<div className="absolute inset-0 bg-black/50" /> {/* Overlay */}
+				<div className="absolute inset-0 bg-black/50" />
 			</div>
 
-			{/* Content */}
-			<div className="container mx-auto px-4 relative z-10">
-				<div className="max-w-2xl text-white">
-					<h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-						ELASTIC
-					</h1>
-					<p className="text-lg md:text-xl mb-8">
-						ELASTIC IS GOOD FOR U
-					</p>
-					<button className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
-						Get Started
-					</button>
+			<div className="absolute inset-0 z-10">
+				<div className="grid grid-cols-[6fr_5fr_1fr] grid-rows-3 h-full">
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
+					<div className="flex flex-col justify-between p-8 border h-full_ bg-white/10 backdrop-blur-xs border-white/30">
+						<h1 className="text-4xl font-bold">
+							Estetikos patirtis, kuria pasitikėti - lengva
+						</h1>
+						<Button variant="dark" className="hover:bg-blue-50">
+							Registracija
+						</Button>
+					</div>
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
+					<div className="border border-white/30"></div>
 				</div>
 			</div>
 		</section>

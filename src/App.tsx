@@ -1,13 +1,14 @@
-import './App.css';
 import SectionHero from './components/sections/SectionHero';
+import SectionSecond from './components/sections/SectionSecond';
 import NavBar from './components/ui/NavBar';
 
 function App() {
 	return (
-		<div className="flex flex-col min-h-screen mx-auto ">
+		<div className="relative flex flex-col w-full min-h-screen mx-auto">
 			<NavBar />
-			<main className="flex-1 w-full px-4 max-w-7xl sm:px-6 lg:px-8">
-				<SectionHero />
+			<SectionHero />
+			<main className="flex-1 w-full px-4 mx-auto max-w-7xl lg:px-8">
+				<SectionSecond />
 			</main>
 		</div>
 	);
