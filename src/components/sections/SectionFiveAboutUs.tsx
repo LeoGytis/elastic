@@ -4,34 +4,33 @@ import AboutUsImage03 from '../../images/about-us03.png';
 
 const SectionFiveAboutUs = () => {
 	return (
-		<section className="relative flex flex-col items-center justify-center w-full pt-20 pb-16 text-white bg-perlas">
+		<section className="relative flex flex-col items-center justify-center w-full pt-40 pb-40 text-white bg-perlas">
 			<div className="container relative flex flex-col items-center justify-center text-rubinas">
 				<h3 className="pb-6">Apie mus</h3>
-				<h1 className="italic text-center">
-					Lorem Lorem ipsum dolor sit amet, consectetur adipiscing
-					elit. Nunc nec molestie sem. Sed velit ligula, porttitor nec
-					maximus nec, pellentesque nec eros. Sed in facilisis ex. Sed
-					massa dui, scelerisque id dui vel, suscipit lobortis nunc.
-					Mauris efficitur imperdiet lacus, at facilisis tortor
-					ultrices in. Sed porttitor facilisis tortor, vitae faucibus
-					mi ullamcorper at. Proin lobortis, urna at eleifend
-					condimentum, nulla velit convallis metus, ac tincidunt lacus
-					quam id lectus. dolor sit amet, consectetur
+				<h1 className="z-10 max-w-6xl italic text-center">
+					Grožio procedūros, odos priežiūra ir estetiniai sprendimai -
+					tai mūsų siūlomos paslaugos, padedančios puoselėti Jūsų
+					išvaizdą. Kiekviena procedūra atliekama kruopščiai,
+					atsižvelgiant į individualius poreikius. Mūsų tikslas - ne
+					tik išryškinti natūralų grožį, bet ir suteikti ilgalaikį
+					rezultatą. Patikėkite savo išvaizdą profesionalams, kurie
+					rūpinasi Jūsų gerove ir pasitikėjimu savimi. Jūsų grožis -
+					mūsų įkvėpimas kurti išskirtinę patirtį kiekvienam klientui.
 				</h1>
 				<img
 					src={AboutUsImage01}
 					alt="About us decorative element 1"
-					className="absolute object-cover w-64 h-64 top-20 left-10"
+					className="opacity-80 absolute object-cover -bottom-20 aspect-[1.5] w-96 right-1/4"
 				/>
 				<img
 					src={AboutUsImage02}
 					alt="About us decorative element 2"
-					className="absolute object-cover bottom-10 right-1/2 w-72 h-72"
+					className="opacity-70 absolute bottom-0 object-cover left-40 w-80 aspect-[0.8]"
 				/>
 				<img
 					src={AboutUsImage03}
 					alt="About us decorative element 3"
-					className="absolute object-cover w-96 h-96 top-20 right-10"
+					className="opacity-80 absolute object-cover right-40 -top-20 w-96 aspect-[1.4]"
 				/>
 			</div>
 		</section>

@@ -3,7 +3,7 @@ import VilniusImage from '../../images/vilnius.png';
 
 const SectionSixLocations = () => {
 	return (
-		<section className="relative flex flex-col items-center justify-center w-full pt-16 pb-32 text-white bg-perlas">
+		<section className="relative flex flex-col items-center justify-center w-full pt-40 pb-32 text-white bg-perlas">
 			<div className="container relative flex flex-col items-center justify-center text-rubinas">
 				<h3 className="pb-6">Lokacijos</h3>
 				<h1 className="pb-20">
