@@ -5,7 +5,8 @@
 
 :root {
 	--color-white: #fcf8f4;
-	--color-rubinas: #5a2230;
+	/* --color-rubinas: #5a2230; */
+	--color-rubinas: 345 45% 24%; /* #5a2230 */
 	--color-perlas: #efe8db;
 	--color-border: #fff8f7;
 }

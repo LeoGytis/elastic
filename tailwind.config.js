@@ -5,7 +5,8 @@ module.exports = {
 		extend: {
 			colors: {
 				white: 'var(--color-white)',
-				rubinas: 'var(--color-rubinas)',
+				// rubinas: 'var(--color-rubinas)',
+				rubinas: 'hsl(var(--color-rubinas) / <alpha-value>)',
 				perlas: 'var(--color-perlas)',
 				border: 'var(--color-border)',
 			},
