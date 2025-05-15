@@ -23,7 +23,7 @@ const Button: React.FC<ButtonProps> = ({
 				size === 'default' ? 'py-4 px-6' : 'py-[11px] px-[17px]',
 				variant === 'dark'
 					? 'bg-rubinas text-white hover:text-rubinas hover:!bg-perlas'
-					: 'bg-perlas text-rubinas hover:text-perlas hover:bg-rubinas border border-rubinas/20',
+					: '!bg-perlas text-rubinas hover:text-perlas hover:!bg-rubinas border border-rubinas/20',
 				className
 			)}
 			{...props}
