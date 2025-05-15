@@ -1,7 +1,8 @@
 import ProcedureImage01 from '../../images/procedure01.png';
 import ProcedureImage02 from '../../images/procedure02.png';
 import ProcedureImage03 from '../../images/procedure03.png';
-const SectionHero = () => {
+
+const SectionThreePopular = () => {
 	return (
 		<section className="relative flex flex-col items-center justify-center w-full pt-48 text-white bg-rubinas">
 			<div className="container relative flex flex-col items-center justify-center py-48 border border-rubinas">
@@ -49,4 +50,4 @@ const SectionHero = () => {
 	);
 };
 
-export default SectionHero;
+export default SectionThreePopular;

@@ -1,7 +1,7 @@
 import WomenImage from '../../images/women.png';
 import Button from '../ui/Button';
 
-const SectionHero = () => {
+const SectionTwo = () => {
 	return (
 		<section className="relative flex flex-col items-center justify-center w-full pt-48 bg-perlas">
 			<img
@@ -46,4 +46,4 @@ const SectionHero = () => {
 	);
 };
 
-export default SectionHero;
+export default SectionTwo;

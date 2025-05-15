@@ -1,7 +1,7 @@
 import DoctorImage01 from '../../images/doctor01.png';
 import Button from '../ui/Button';
 
-const SectionHero = () => {
+const SectionFourDoctors = () => {
 	return (
 		<section className="relative flex flex-col items-center justify-center w-full pt-48 text-white bg-rubinas">
 			<div className="container relative flex flex-col items-center justify-center py-48 border border-rubinas">
@@ -32,4 +32,4 @@ const SectionHero = () => {
 	);
 };
 
-export default SectionHero;
+export default SectionFourDoctors;
