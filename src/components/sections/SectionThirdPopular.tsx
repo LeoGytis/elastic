@@ -9,21 +9,24 @@ const SectionHero = () => {
 				<h1>Populiariausios procedūros</h1>
 
 				<div className="flex items-center justify-center w-full gap-8">
-					<img
-						src={ProcedureImage01}
-						alt="hero_image"
-						className="w-1/3 aspect-[9/12]"
-					/>
-					<img
-						src={ProcedureImage02}
-						alt="hero_image"
-						className="w-1/3 mt-20 aspect-[9/12]"
-					/>
-					<img
-						src={ProcedureImage03}
-						alt="hero_image"
-						className="w-1/3 aspect-[9/12]"
-					/>
+					<div className="w-1/3 aspect-[9/12] relative flex justify-end">
+						<img src={ProcedureImage01} alt="procedure01_image" />
+						<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center justify-center text-2xl font-medium">
+							Plaukų persodinimas
+						</div>
+					</div>
+					<div className="w-1/3 aspect-[9/12] relative flex justify-end mt-28">
+						<img src={ProcedureImage02} alt="procedure01_image" />
+						<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center justify-center text-2xl font-medium">
+							Botulino injekcijosh
+						</div>
+					</div>
+					<div className="w-1/3 aspect-[9/12] relative flex justify-end">
+						<img src={ProcedureImage03} alt="procedure01_image" />
+						<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center justify-center text-2xl font-medium">
+							Frakcinis odos atnaujinimas
+						</div>
+					</div>
 				</div>
 
 				<div className="flex flex-col items-center justify-center w-2/3 gap-10">
