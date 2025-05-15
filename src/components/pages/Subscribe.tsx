@@ -1,9 +1,8 @@
-import React from 'react';
 import Button from '../ui/Button';
 
-const Subscribe: React.FC = () => {
+const Subscribe = () => {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen px-4 py-10 text-center text-white bg-rubinas font-montserrat">
+		<div className="flex flex-col items-center justify-center px-4 py-10 text-center text-white bg-rubinas font-montserrat">
 			<div className="mb-3 text-base tracking-wide opacity-85">
 				TURITE KLAUSIMŲ?
 			</div>
