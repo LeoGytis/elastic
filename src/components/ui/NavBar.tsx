@@ -21,7 +21,7 @@ const NavLink = ({href, children}: NavLinkProps) => {
 const NavBar = () => {
 	return (
 		<nav className="fixed top-0 left-0 right-0 z-50 w-full px-12 pt-6 mx-auto bg-transparent">
-			<div className="flex items-center justify-between w-full px-8 py-2 mx-auto rounded-md bg-perlas">
+			<div className="flex items-center justify-between w-full px-8 py-2 mx-auto rounded-md shadow bg-perlas">
 				{/* Left side navigation items */}
 				<div className="flex items-center gap-4 px-4">
 					<NavLink href="/paslaugos">Paslaugos</NavLink>

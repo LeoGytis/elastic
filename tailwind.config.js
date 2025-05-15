@@ -10,6 +10,9 @@ module.exports = {
 				perlas: 'var(--color-perlas)',
 				border: 'var(--color-border)',
 			},
+			boxShadow: {
+				navbar: '0px 4px 16px 0px rgba(0,0,0,0.02)',
+			},
 		},
 	},
 	plugins: [],
