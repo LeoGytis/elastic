@@ -20,7 +20,7 @@ const SectionHero = () => {
 					<div className="border border-white/30"></div>
 					<div className="border border-white/30"></div>
 					<div className="flex flex-col justify-between p-8 border h-full_ bg-white/10 backdrop-blur-xs border-white/30">
-						<h1 className="text-4xl font-bold">
+						<h1 className="text-4xl font-bold text-white">
 							Estetikos patirtis, kuria pasitikėti - lengva
 						</h1>
 						<Button variant="dark" className="hover:bg-blue-50">

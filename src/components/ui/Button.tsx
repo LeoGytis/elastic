@@ -1,4 +1,5 @@
 import React from 'react';
+import {cn} from '../../lib/utils';
 
 type ButtonVariant = 'dark' | 'light';
 
@@ -9,7 +10,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<ButtonProps> = ({
 	children,
 	variant = 'dark',
-	className = '',
+	className,
 	...props
 }) => {
 	const baseStyles =
@@ -20,10 +21,11 @@ const Button: React.FC<ButtonProps> = ({
 		light: 'bg-white text-gray-900 hover:bg-gray-100 focus:ring-gray-100 border border-gray-200',
 	};
 
-	const buttonClasses = `${baseStyles} ${variantStyles[variant]} ${className}`;
-
 	return (
-		<button className={buttonClasses} {...props}>
+		<button
+			className={cn(baseStyles, variantStyles[variant], className)}
+			{...props}
+		>
 			{children}
 		</button>
 	);
