@@ -3,14 +3,16 @@ import VilniusImage from '../../images/vilnius.png';
 
 const SectionSixLocations = () => {
 	return (
-		<section className="relative flex flex-col items-center justify-center w-full pt-48 text-white bg-perlas">
-			<div className="container relative flex flex-col items-center justify-center py-48 text-rubinas">
-				<h3>Lokacijos</h3>
-				<h4>Galite apsilankyti Jums patogiausioje klinikoje</h4>
+		<section className="relative flex flex-col items-center justify-center w-full pt-16 pb-32 text-white bg-perlas">
+			<div className="container relative flex flex-col items-center justify-center text-rubinas">
+				<h3 className="pb-6">Lokacijos</h3>
+				<h1 className="pb-20">
+					Galite apsilankyti Jums patogiausioje klinikoje
+				</h1>
 
 				<div className="flex flex-col w-full gap-8 mt-12 md:flex-row text-perlas">
 					{/* Vilnius Card */}
-					<div className="relative flex-1 h-[400px] flex items-center justify-center rounded-lg overflow-hidden">
+					<div className="relative flex-1 h-[800px] flex items-center justify-center overflow-hidden">
 						<img
 							src={VilniusImage}
 							alt="Vilnius"
@@ -27,7 +29,7 @@ const SectionSixLocations = () => {
 					</div>
 
 					{/* Klaipėda Card */}
-					<div className="relative flex-1 h-[400px] flex items-center justify-center rounded-lg overflow-hidden">
+					<div className="relative flex-1 h-[800px] flex items-center justify-center overflow-hidden">
 						<img
 							src={KlaipedaImage}
 							alt="Klaipėda"

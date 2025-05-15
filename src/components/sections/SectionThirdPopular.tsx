@@ -4,7 +4,7 @@ import ProcedureImage03 from '../../images/procedure03.png';
 
 const SectionThreePopular = () => {
 	return (
-		<section className="relative flex flex-col items-center justify-center w-full pt-48 text-white bg-rubinas">
+		<section className="relative flex flex-col items-center justify-center w-full pt-48 pb-20 text-white bg-rubinas">
 			<div className="container relative flex flex-col items-center justify-center pt-32">
 				<h3 className="mb-4">Dažniausi pasirinkimai</h3>
 				<h1 className="mb-6">Populiariausios procedūros</h1>
