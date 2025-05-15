@@ -8,7 +8,8 @@ module.exports = {
 				// rubinas: 'var(--color-rubinas)',
 				rubinas: 'hsl(var(--color-rubinas) / <alpha-value>)',
 				perlas: 'var(--color-perlas)',
-				border: 'var(--color-border)',
+				// border: 'var(--color-border)',
+				border: 'hsl(var(--color-border) / <alpha-value>)',
 			},
 			boxShadow: {
 				navbar: '0px 4px 16px 0px rgba(0,0,0,0.02)',
