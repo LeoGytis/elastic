@@ -18,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
 
 	const variantStyles = {
 		dark: 'bg-rubinas text-white hover:bg-gray-800 focus:ring-gray-900',
-		light: 'bg-white text-gray-900 hover:bg-gray-100 focus:ring-gray-100 border border-gray-200',
+		light: 'bg-white text-rubinas hover:bg-rubinas hover:text-white focus:ring-gray-100 border border-gray-200',
 	};
 
 	return (

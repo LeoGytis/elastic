@@ -1,3 +1,4 @@
+import SectionFourthDoctors from './components/sections/SectionFourthDoctors';
 import SectionHero from './components/sections/SectionHero';
 import SectionSecond from './components/sections/SectionSecond';
 import SectionThirdPopular from './components/sections/SectionThirdPopular';
@@ -11,6 +12,7 @@ function App() {
 			<main className="px-4_ max-w-7xl_">
 				<SectionSecond />
 				<SectionThirdPopular />
+				<SectionFourthDoctors />
 			</main>
 		</div>
 	);

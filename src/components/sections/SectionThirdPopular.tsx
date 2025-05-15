@@ -8,23 +8,24 @@ const SectionHero = () => {
 				<h3>Dažniausi pasirinkimai</h3>
 				<h1>Populiariausios procedūros</h1>
 
-				<div className="flex items-center justify-center gap-8">
+				<div className="flex items-center justify-center w-full gap-8">
 					<img
 						src={ProcedureImage01}
 						alt="hero_image"
-						className="h-48 w-36"
+						className="w-1/3 aspect-[9/12]"
 					/>
 					<img
 						src={ProcedureImage02}
 						alt="hero_image"
-						className="h-48 w-36"
+						className="w-1/3 mt-20 aspect-[9/12]"
 					/>
 					<img
 						src={ProcedureImage03}
 						alt="hero_image"
-						className="h-48 w-36"
+						className="w-1/3 aspect-[9/12]"
 					/>
 				</div>
+
 				<div className="flex flex-col items-center justify-center w-2/3 gap-10">
 					<h3 className="uppercase">Paslaugos</h3>
 					<h4 className="w-full pb-8 text-5xl text-center border-b border-border/20 opacity-60 hover:opacity-100">
