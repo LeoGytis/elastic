@@ -12,62 +12,56 @@ const SectionSevenNews = () => {
 					Naujienos iš estetinės medicinos pasaulio
 				</h1>
 
-				<div className="flex flex-col w-full gap-8 pb-20 mt-12 md:flex-row">
+				<div className="flex flex-col w-full gap-40 pb-20 mt-12 md:flex-row">
 					{/* News Card 1 */}
-					<div className="flex flex-col flex-1">
-						<div className="relative w-full aspect-[1/1.1] rounded-lg overflow-hidden mb-4">
-							<img
-								src={NewsImage01}
-								alt="news01"
-								className="object-cover w-full h-full"
-							/>
+					<div className="flex flex-col flex-1 gap-4">
+						<img
+							src={NewsImage01}
+							alt="news01"
+							className="object-cover"
+						/>
+						<div className="text-sm">
+							<span className="opacity-70">2025.01.23</span>
+							<span> &nbsp; • &nbsp; KATEGORIJA 1</span>
 						</div>
-						<div className="mb-1 text-sm opacity-70">
-							2025.01.23 &nbsp; • &nbsp;{' '}
-							<span className="font-semibold">KATEGORIJA 1</span>
-						</div>
-						<div className="text-lg font-normal leading-snug">
+						<p>
 							Atraskite matomus odos atjauninimo rezultatus jau po
 							pirmos procedūros!
-						</div>
+						</p>
 					</div>
 
 					{/* News Card 2 */}
-					<div className="flex flex-col flex-1">
-						<div className="relative w-full aspect-[1/1.1] rounded-lg overflow-hidden mb-4">
-							<img
-								src={NewsImage02}
-								alt="news02"
-								className="object-cover w-full h-full"
-							/>
+					<div className="flex flex-col flex-[1.25] gap-4">
+						<img
+							src={NewsImage02}
+							alt="news02"
+							className="object-cover"
+						/>
+						<div className="text-sm">
+							<span className="opacity-70">2025.01.23</span>
+							<span> &nbsp; • &nbsp; KATEGORIJA 1</span>
 						</div>
-						<div className="mb-1 text-sm opacity-70">
-							2025.01.23 &nbsp; • &nbsp;{' '}
-							<span className="font-semibold">KATEGORIJA 1</span>
-						</div>
-						<div className="text-lg font-normal leading-snug">
+						<p>
 							Atraskite matomus odos atjauninimo rezultatus jau po
 							pirmos procedūros!
-						</div>
+						</p>
 					</div>
 
 					{/* News Card 3 */}
-					<div className="flex flex-col flex-1">
-						<div className="relative w-full aspect-[1/1.1] rounded-lg overflow-hidden mb-4">
-							<img
-								src={NewsImage03}
-								alt="news03"
-								className="object-cover w-full h-full"
-							/>
+					<div className="flex flex-col flex-1 gap-4">
+						<img
+							src={NewsImage03}
+							alt="news03"
+							className="object-cover"
+						/>
+						<div className="text-sm">
+							<span className="opacity-70">2025.01.23</span>
+							<span> &nbsp; • &nbsp; KATEGORIJA 1</span>
 						</div>
-						<div className="mb-1 text-sm opacity-70">
-							2025.01.23 &nbsp; • &nbsp;{' '}
-							<span className="font-semibold">KATEGORIJA 1</span>
-						</div>
-						<div className="text-lg font-normal leading-snug">
+						<p>
 							Atraskite matomus odos atjauninimo rezultatus jau po
 							pirmos procedūros!
-						</div>
+						</p>
 					</div>
 				</div>
 				<Button variant="light" className="bg-transparent">
