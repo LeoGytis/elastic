@@ -4,11 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				white: 'var(--color-white)',
-				// rubinas: 'var(--color-rubinas)',
+				white: 'hsl(var(--color-white) / <alpha-value>)',
 				rubinas: 'hsl(var(--color-rubinas) / <alpha-value>)',
-				perlas: 'var(--color-perlas)',
-				// border: 'var(--color-border)',
+				perlas: 'hsl(var(--color-perlas) / <alpha-value>)',
 				border: 'hsl(var(--color-border) / <alpha-value>)',
 			},
 			boxShadow: {

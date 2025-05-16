@@ -4,12 +4,10 @@
 @import url('./fonts/gambetta/css/gambetta.css');
 
 :root {
-	--color-white: #fcf8f4;
-	/* --color-rubinas: #5a2230; */
+	--color-white: 30 57% 97%; /* #fcf8f4 */
 	--color-rubinas: 345 45% 24%; /* #5a2230 */
-	--color-perlas: #efe8db;
-	/* --color-border: #fff8f7; */
-	--color-border: 7 100% 98%;
+	--color-perlas: 39 38% 90%; /* #efe8db */
+	--color-border: 7 100% 98%; /* #fff8f7 */
 }
 
 body {
