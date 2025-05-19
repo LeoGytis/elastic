@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url('./fonts/gambetta/css/gambetta.css');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
 	--color-white: 30 57% 97%; /* #fcf8f4 */
@@ -25,7 +27,7 @@ code {
 }
 
 h1 {
-	/* font-family: 'ABeeZee', sans-serif; */
+	font-family: 'ABeeZee', sans-serif;
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 120%;
@@ -33,6 +35,7 @@ h1 {
 }
 
 h3 {
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 110%;
@@ -47,4 +50,13 @@ p {
 	line-height: 120%;
 	margin-bottom: 24px;
 	letter-spacing: -0.02em;
+}
+
+button,
+a {
+	font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
 }

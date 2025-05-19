@@ -2,7 +2,7 @@ import Button from '../ui/Button';
 
 const Subscribe = () => {
 	return (
-		<div className="flex flex-col items-center justify-center px-4 py-10 text-center text-white bg-rubinas font-montserrat">
+		<div className="flex flex-col items-center justify-center px-4 py-10 text-center text-white border border-blue-500 bg-rubinas font-montserrat">
 			<h3>TURITE KLAUSIMŲ?</h3>
 			<h1 className="text-5xl font-medium leading-tight">
 				Užpildžius formą, mes

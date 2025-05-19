@@ -12,7 +12,7 @@ const Footer = () => {
 			/>
 
 			<footer className="relative px-4 pb-6 bg-perlas text-rubinas md:px-24 pt-96">
-				<div className="absolute inset-0 w-3/5 mx-auto -top-60">
+				<div className="absolute w-3/5 mx-auto translate-x-1/2 right-1/2 -top-60">
 					<Subscribe />
 				</div>
 				<div className="flex flex-col gap-12 mx-auto md:flex-row md:justify-between md:items-start max-w-7xl">
@@ -53,21 +53,21 @@ const Footer = () => {
 						<div className="flex gap-4 mt-4">
 							{/* Social icons - lucide-react */}
 							<a
-								href="#"
+								href="https://instagram.com"
 								aria-label="Instagram"
 								className="hover:opacity-70"
 							>
 								<Instagram size={28} stroke="#5a2230" />
 							</a>
 							<a
-								href="#"
+								href="https://facebook.com"
 								aria-label="Facebook"
 								className="hover:opacity-70"
 							>
 								<Facebook size={28} stroke="#5a2230" />
 							</a>
 							<a
-								href="#"
+								href="https://linkedin.com"
 								aria-label="LinkedIn"
 								className="hover:opacity-70"
 							>
@@ -82,27 +82,19 @@ const Footer = () => {
 							Jums
 						</div>
 						<form className="flex flex-col gap-4">
-							<label
-								htmlFor="footer-email"
-								className="text-sm font-medium"
-							>
-								Jūsų el.paštas
-							</label>
-							<div className="flex items-center border-b border-[#efe8db] pb-2">
+							<div className="flex items-center pb-2 border-b border-rubinas">
 								<input
 									id="footer-email"
 									type="email"
-									placeholder=" "
-									className="flex-1 bg-transparent outline-none text-lg placeholder:text-[#5a2230]/40"
+									placeholder="Jūsų el.paštas"
+									className="flex-1 text-lg bg-transparent outline-none placeholder:text-rubinas/40"
 								/>
 								<button
 									type="submit"
-									className="ml-4 p-2 rounded-full hover:bg-[#efe8db] transition-colors"
+									className="p-2 ml-4 transition-colors rounded-full hover:bg-white"
 									aria-label="Submit"
 								>
-									<span className="inline-block rotate-[-45deg] text-2xl">
-										→
-									</span>
+									<span className="text-2xl ">→</span>
 								</button>
 							</div>
 							<label className="flex items-center gap-2 mt-2 text-sm">
@@ -113,12 +105,11 @@ const Footer = () => {
 								/>
 								Sutinku su{' '}
 								<a
-									href="#"
-									className="underline hover:text-[#7a3a4a]"
+									href="/privacy-policy"
+									className="underline hover:text-rubinas/40 hover:cursor-pointer"
 								>
 									privatumo politika
 								</a>
-								.
 							</label>
 						</form>
 					</div>
@@ -128,47 +119,35 @@ const Footer = () => {
 							<div className="mb-2 text-sm font-medium tracking-wider uppercase opacity-70">
 								NAVIGACIJA
 							</div>
-							<ul className="space-y-2">
-								<li>
-									<a href="#" className="hover:underline">
-										Paslaugos
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Gydytojai
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Klinikos
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Naujienos
-									</a>
-								</li>
-							</ul>
+							<div className="space-y-2">
+								<div>
+									<a href="/services">Paslaugos</a>
+								</div>
+								<div>
+									<a href="/doctors">Gydytojai</a>
+								</div>
+								<div>
+									<a href="/clinics">Klinikos</a>
+								</div>
+								<div>
+									<a href="/news">Naujienos</a>
+								</div>
+							</div>
 						</div>
 						<div>
-							<ul className="mt-8 space-y-2 md:mt-8">
-								<li>
-									<a href="#" className="hover:underline">
-										Kontaktai
-									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
+							<div className="mt-8 space-y-2 md:mt-8">
+								<div>
+									<a href="/contacts">Kontaktai</a>
+								</div>
+								<div>
+									<a href="/quality-policy">
 										Kokybės politika
 									</a>
-								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										DUK
-									</a>
-								</li>
-							</ul>
+								</div>
+								<div>
+									<a href="/faq">DUK</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

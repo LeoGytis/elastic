@@ -13,13 +13,13 @@ const SectionSixLocations = () => {
 
 				<div className="flex flex-col w-full max-w-6xl aspect-[1.6] gap-12 md:flex-row text-perlas">
 					{/* Vilnius Card */}
-					<div className="relative flex items-center justify-center flex-1">
+					<div className="relative flex items-center justify-center flex-1 transition-all duration-300 group hover:scale-105 hover:cursor-pointer">
 						<img
 							src={VilniusImage}
 							alt="Vilnius"
 							className="absolute inset-0 z-0 object-cover w-full h-full"
 						/>
-						<div className="absolute inset-0 z-10 bg-black/40" />
+						<div className="absolute inset-0 z-10 transition-all duration-300 bg-black/40 group-hover:bg-white/10" />
 						<div className="relative z-20 flex flex-col items-center justify-between h-full py-12">
 							<span className="mb-4 text-sm">
 								GEDIMINO PR. 44
@@ -34,13 +34,13 @@ const SectionSixLocations = () => {
 					</div>
 
 					{/* Klaipėda Card */}
-					<div className="relative flex items-center justify-center flex-1">
+					<div className="relative flex items-center justify-center flex-1 transition-all duration-300 group hover:scale-105 hover:cursor-pointer">
 						<img
 							src={KlaipedaImage}
 							alt="Klaipėda"
 							className="absolute inset-0 z-0 object-cover w-full h-full"
 						/>
-						<div className="absolute inset-0 z-10 bg-black/40" />
+						<div className="absolute inset-0 z-10 transition-all duration-300 bg-black/40 group-hover:bg-white/10" />
 						<div className="relative z-20 flex flex-col items-center justify-between h-full py-12">
 							<span className="mb-4 text-sm">TAURAGĖS G. 4</span>
 							<span className="mb-4 text-6xl font-light">
