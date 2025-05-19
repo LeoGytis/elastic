@@ -64,6 +64,7 @@ const SectionFourDoctors = () => {
 			image: DoctorImage09,
 			alt: 'Doctor 9',
 			fullName: 'Toma Vainos neurologė',
+			speciality: 'Gydytoja dermatovenerologė',
 		},
 	];
 
@@ -80,16 +81,19 @@ const SectionFourDoctors = () => {
 								<img
 									src={doctor.image}
 									alt={doctor.alt}
-									className="w-full aspect-[9/12] object-cover"
+									className="w-full aspect-[9/12] object-cover mb-4"
 								/>
-								<div className="mt-4">
-									<div className="text-lg font-semibold">
+								<div className="mb-6">
+									<p className="mb-4 text-2xl">
 										{doctor.fullName}
-									</div>
-									<div className="text-sm text-perlas">
+									</p>
+									<div className="font-lato font-normal leading-[160%] tracking-[0.01em] text-white/60">
 										{doctor.speciality}
 									</div>
 								</div>
+								<Button variant="dark" className="p-0">
+									Plačiau
+								</Button>
 							</div>
 						))}
 					</Slider>

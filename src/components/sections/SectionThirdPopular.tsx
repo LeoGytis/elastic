@@ -35,17 +35,17 @@ const SectionThreePopular = () => {
 					<h3 className="w-full border-b pb-14 border-border/20">
 						Paslaugos
 					</h3>
-					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100">
-						<a href="/">Plastinė ir estetinė chirurgija</a>
+					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100 hover:cursor-pointer">
+						Plastinė ir estetinė chirurgija
 					</h1>
-					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100">
-						<a href="/">Estetinė dermatologija</a>
+					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100 hover:cursor-pointer">
+						Estetinė dermatologija
 					</h1>
-					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100">
-						<a href="/">Lazerinė dermatologija</a>
+					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100 hover:cursor-pointer">
+						Lazerinė dermatologija
 					</h1>
-					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100">
-						<a href="/">Kosmetologija</a>
+					<h1 className="w-full pb-8 border-b border-border/20 opacity-60 hover:opacity-100 hover:cursor-pointer">
+						Kosmetologija
 					</h1>
 				</div>
 			</div>

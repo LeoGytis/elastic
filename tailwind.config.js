@@ -3,6 +3,9 @@ module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				lato: ['Lato', 'sans-serif'],
+			},
 			colors: {
 				white: 'hsl(var(--color-white) / <alpha-value>)',
 				rubinas: 'hsl(var(--color-rubinas) / <alpha-value>)',

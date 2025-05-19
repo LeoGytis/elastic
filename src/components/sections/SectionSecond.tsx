@@ -17,22 +17,22 @@ const SectionTwo = () => {
 				<Button variant="light">Apie mus</Button>
 				<div className="flex items-center justify-center gap-24 mt-12 text-rubinas">
 					<div className="text-center">
-						<h1 className="font-medium">690</h1>
-						<div className="mt-2 text-sm opacity-60">
-							KOKYBIŠKOS PASLAUGOS
-						</div>
+						<h2>690</h2>
+						<span className="mt-2 opacity-60">
+							Kokybiškos paslaugos
+						</span>
 					</div>
 					<div className="text-center">
-						<h1 className="font-medium">49</h1>
-						<div className="mt-2 text-sm opacity-60">
-							PROFESIONALŪS GYDYTOJAI
-						</div>
+						<h2>49</h2>
+						<span className="mt-2 opacity-60">
+							Profesionalūs gydytojai
+						</span>
 					</div>
 					<div className="text-center">
-						<h1 className="font-medium">98,8%</h1>
-						<div className="mt-2 text-sm opacity-60">
-							MUS REKOMENDUOJA
-						</div>
+						<h2>98,8%</h2>
+						<span className="mt-2 opacity-60">
+							Mus rekomenduoja
+						</span>
 					</div>
 				</div>
 			</div>
