@@ -1,4 +1,4 @@
-import {Facebook, Instagram, Linkedin} from 'lucide-react';
+import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 import FooterImage from '../../images/footer.png';
 import Subscribe from './Subscribe';
 
@@ -10,148 +10,121 @@ const Footer = () => {
 				alt="footer-bg"
 				className="object-cover w-full aspect-[3]"
 			/>
-
-			<footer className="relative px-4 pb-6 bg-perlas text-rubinas md:px-24 pt-96">
+			<div className="relative px-4 pb-6 bg-perlas text-rubinas md:px-24 pt-96">
 				<div className="absolute w-3/5 mx-auto translate-x-1/2 right-1/2 -top-60">
 					<Subscribe />
 				</div>
-				<div className="flex flex-col gap-12 mx-auto md:flex-row md:justify-between md:items-start max-w-7xl">
+				<footer className="flex flex-col gap-24 px-12 mx-auto">
 					{/* Left: Contact & Locations */}
-					<div className="flex flex-col gap-12 min-w-[250px] flex-1">
+					<div className="flex justify-between gap-12 min-w-[250px] flex-1">
 						<div>
-							<div className="mb-2 text-sm font-medium tracking-wider uppercase opacity-70">
+							<h3 className="mb-8 text-left opacity-50">
 								SUSISIEKITE
-							</div>
-							<div className="text-lg font-semibold">
+							</h3>
+							<div className="text-xl font-bold">
 								+370 620 00 999
 							</div>
 						</div>
-						<div className="flex flex-col gap-12 md:flex-row">
-							<div>
-								<div className="mb-2 text-sm font-medium tracking-wider uppercase opacity-70">
-									VILNIUS
+						{/* Center: Newsletter */}
+						<div className="flex-1 max-w-xl mx-auto md:mx-0">
+							<div className="w-1/2 mb-6 font-medium text-2xl leading-[120%] tracking-[-0.02em]">
+								Svarbios naujienos ir specialūs pasiūlymai
+								skirti Jums
+							</div>
+							<form className="flex flex-col gap-4">
+								<div className="flex items-center pb-2 border-b border-rubinas">
+									<input
+										id="footer-email"
+										type="email"
+										placeholder="Jūsų el.paštas"
+										className="flex-1 text-lg bg-transparent outline-none placeholder:text-rubinas/40"
+									/>
+									<button
+										type="submit"
+										className="p-2 ml-4 transition-colors rounded-full hover:bg-white"
+										aria-label="Submit"
+									>
+										<span className="text-2xl ">→</span>
+									</button>
 								</div>
-								<div className="leading-relaxed">
-									I-V 08:00 – 20:00
+								<label className="flex items-center gap-2 mt-2 text-sm">
+									<input
+										type="checkbox"
+										className="w-4 h-4 accent-rubinas"
+										required
+									/>
+									Sutinku su{' '}
+									<a
+										href="/privacy-policy"
+										className="underline hover:text-rubinas/40 hover:cursor-pointer"
+									>
+										privatumo politika
+									</a>
+								</label>
+							</form>
+						</div>
+					</div>
+
+					<div className="flex">
+						{/* Location Section */}
+						<section className="flex flex-1 gap-12">
+							<div>
+								<h3 className="mb-8 text-left opacity-50">
+									VILNIUS
+								</h3>
+								<div className="text-xl font-medium leading-[120%] tracking-[-0.02em]">
+									I-V 08:00 - 20:00
 									<br />
-									VI 09:00 – 15:00
+									VI 09:00 - 15:00
 									<br />
 									VII Nedirbame
 								</div>
 							</div>
 							<div>
-								<div className="mb-2 text-sm font-medium tracking-wider uppercase opacity-70">
+								<h3 className="mb-8 text-left opacity-50">
 									KLAIPĖDA
-								</div>
-								<div className="leading-relaxed">
+								</h3>
+								<div className="text-xl font-medium leading-[120%] tracking-[-0.02em]">
 									I-V 08:00 – 19:00
 									<br />
 									VI-VI Nedirbame
 								</div>
 							</div>
-						</div>
-						<div className="flex gap-4 mt-4">
-							{/* Social icons - lucide-react */}
-							<a
-								href="https://instagram.com"
-								aria-label="Instagram"
-								className="hover:opacity-70"
-							>
-								<Instagram size={28} stroke="#5a2230" />
-							</a>
-							<a
-								href="https://facebook.com"
-								aria-label="Facebook"
-								className="hover:opacity-70"
-							>
-								<Facebook size={28} stroke="#5a2230" />
-							</a>
-							<a
-								href="https://linkedin.com"
-								aria-label="LinkedIn"
-								className="hover:opacity-70"
-							>
-								<Linkedin size={28} stroke="#5a2230" />
-							</a>
-						</div>
+						</section>
+						{/* Navigation Section */}
+
+						<section className="flex flex-col flex-1 gap-8">
+							<h3 className="text-left opacity-50">NAVIGACIJA</h3>
+							<div className="flex gap-12 text-xl font-medium leading-[120%] tracking-[-0.02em]">
+								<div className="pr-24 space-y-2">
+									<div>Paslaugos</div>
+									<div>Gydytojai</div>
+									<div>Klinikos</div>
+									<div>Naujienos</div>
+								</div>
+								<div className="space-y-2">
+									<div>Kontaktai</div>
+									<div>Kokybės politika</div>
+									<div>DUK</div>
+								</div>
+							</div>
+						</section>
 					</div>
-					{/* Center: Newsletter */}
-					<div className="flex-1 max-w-xl mx-auto md:mx-0">
-						<div className="mb-4 text-2xl font-medium leading-snug md:text-3xl">
-							Svarbios naujienos ir specialūs pasiūlymai skirti
-							Jums
+
+					{/* Social icons Section */}
+					<section className="flex gap-4 mt-4">
+						<div className="flex items-center justify-center rounded-full size-8 bg-rubinas">
+							<FaInstagram className="fill-perlas" />
 						</div>
-						<form className="flex flex-col gap-4">
-							<div className="flex items-center pb-2 border-b border-rubinas">
-								<input
-									id="footer-email"
-									type="email"
-									placeholder="Jūsų el.paštas"
-									className="flex-1 text-lg bg-transparent outline-none placeholder:text-rubinas/40"
-								/>
-								<button
-									type="submit"
-									className="p-2 ml-4 transition-colors rounded-full hover:bg-white"
-									aria-label="Submit"
-								>
-									<span className="text-2xl ">→</span>
-								</button>
-							</div>
-							<label className="flex items-center gap-2 mt-2 text-sm">
-								<input
-									type="checkbox"
-									className="accent-[#5a2230] w-4 h-4"
-									required
-								/>
-								Sutinku su{' '}
-								<a
-									href="/privacy-policy"
-									className="underline hover:text-rubinas/40 hover:cursor-pointer"
-								>
-									privatumo politika
-								</a>
-							</label>
-						</form>
-					</div>
-					{/* Right: Navigation */}
-					<div className="flex flex-col justify-end flex-1 gap-8 mt-8 text-base md:flex-row md:gap-16 md:mt-0">
-						<div>
-							<div className="mb-2 text-sm font-medium tracking-wider uppercase opacity-70">
-								NAVIGACIJA
-							</div>
-							<div className="space-y-2">
-								<div>
-									<a href="/services">Paslaugos</a>
-								</div>
-								<div>
-									<a href="/doctors">Gydytojai</a>
-								</div>
-								<div>
-									<a href="/clinics">Klinikos</a>
-								</div>
-								<div>
-									<a href="/news">Naujienos</a>
-								</div>
-							</div>
+						<div className="flex items-center justify-center rounded-full size-8 bg-rubinas">
+							<FaFacebook className="fill-perlas" />
 						</div>
-						<div>
-							<div className="mt-8 space-y-2 md:mt-8">
-								<div>
-									<a href="/contacts">Kontaktai</a>
-								</div>
-								<div>
-									<a href="/quality-policy">
-										Kokybės politika
-									</a>
-								</div>
-								<div>
-									<a href="/faq">DUK</a>
-								</div>
-							</div>
+						<div className="flex items-center justify-center rounded-full size-8 bg-rubinas">
+							<FaLinkedin className="fill-perlas" />
 						</div>
-					</div>
-				</div>
-			</footer>
+					</section>
+				</footer>
+			</div>
 		</>
 	);
 };
