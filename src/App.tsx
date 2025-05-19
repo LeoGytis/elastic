@@ -20,8 +20,8 @@ function App() {
 				<SectionFiveAboutUs />
 				<SectionSixLocations />
 				<SectionSevenNews />
-				<Footer />
 			</main>
+			<Footer />
 		</div>
 	);
 }

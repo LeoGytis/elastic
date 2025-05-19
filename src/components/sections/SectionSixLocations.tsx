@@ -21,12 +21,8 @@ const SectionSixLocations = () => {
 						/>
 						<div className="absolute inset-0 z-10 transition-all duration-300 bg-black/40 group-hover:bg-white/10" />
 						<div className="relative z-20 flex flex-col items-center justify-between h-full py-12">
-							<span className="mb-4 text-sm">
-								GEDIMINO PR. 44
-							</span>
-							<span className="mb-4 text-6xl font-light">
-								Vilnius
-							</span>
+							<h3>GEDIMINO PR. 44</h3>
+							<h1 className="text-[64px]">Vilnius</h1>
 							<Button variant="dark" className="bg-transparent">
 								PLAČIAU
 							</Button>
@@ -42,10 +38,8 @@ const SectionSixLocations = () => {
 						/>
 						<div className="absolute inset-0 z-10 transition-all duration-300 bg-black/40 group-hover:bg-white/10" />
 						<div className="relative z-20 flex flex-col items-center justify-between h-full py-12">
-							<span className="mb-4 text-sm">TAURAGĖS G. 4</span>
-							<span className="mb-4 text-6xl font-light">
-								Klaipėda
-							</span>
+							<h3>TAURAGĖS G. 4</h3>
+							<h1 className="text-[64px]">Klaipėda</h1>
 							<Button variant="dark" className="bg-transparent">
 								PLAČIAU
 							</Button>
