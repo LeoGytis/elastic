@@ -21,7 +21,8 @@ const SectionHero = () => {
 					<div className="border border-perlas"></div>
 					<div className="flex flex-col justify-between px-8 py-6 border border-white bg-white/10 backdrop-blur-md">
 						<h1 className="text-white">
-							Estetikos patirtis, kuria pasitikėti - lengva
+							Estetikos patirtis, kuria <br />
+							pasitikėti - lengva
 						</h1>
 						<Button
 							variant="dark"

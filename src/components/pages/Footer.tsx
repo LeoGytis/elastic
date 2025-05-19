@@ -32,7 +32,7 @@ const Footer = () => {
 								skirti Jums
 							</div>
 							<form className="flex flex-col gap-4">
-								<div className="flex items-center pb-2 border-b border-rubinas">
+								<div className="flex items-center pb-2 border-b border-rubinas/20">
 									<input
 										id="footer-email"
 										type="email"
