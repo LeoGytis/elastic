@@ -20,10 +20,10 @@ const NavLink = ({href, children}: NavLinkProps) => {
 
 const NavBar = () => {
 	return (
-		<nav className="fixed top-0 left-0 right-0 z-50 w-full px-12 pt-6 mx-auto bg-transparent">
-			<div className="flex items-center justify-between w-full px-8 py-2 mx-auto rounded-md shadow bg-perlas">
+		<nav className="top-0 left-0 right-0 z-50 w-full mx-auto bg-transparent lg:pt-6 lg:fixed lg:px-12">
+			<div className="relative flex items-center justify-between w-full px-8 py-2 mx-auto rounded-md shadow max-lg:flex-col bg-perlas">
 				{/* Left side navigation items */}
-				<div className="flex items-center gap-4 px-4">
+				<div className="flex items-center px-4 lg:gap-4 max-lg:flex-col">
 					<NavLink href="/paslaugos">Paslaugos</NavLink>
 					<NavLink href="/gydytojai">Gydytojai</NavLink>
 					<NavLink href="/klinikos">Klinikos</NavLink>
@@ -31,11 +31,11 @@ const NavBar = () => {
 				</div>
 
 				{/* Right side items */}
-				<div className="flex items-center gap-2">
+				<div className="flex items-center gap-2 max-lg:flex-col">
 					<Button
 						variant="light"
 						size="small"
-						className="border-none"
+						className="border-none top-2 left-2 max-lg:absolute"
 					>
 						<Search className="size-[15px]" />
 					</Button>
@@ -48,7 +48,7 @@ const NavBar = () => {
 					<Button
 						variant="light"
 						size="small"
-						className="border-none"
+						className="border-none top-2 right-2 max-lg:absolute"
 					>
 						EN
 					</Button>

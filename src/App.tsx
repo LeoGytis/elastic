@@ -13,7 +13,7 @@ function App() {
 		<div className="relative flex flex-col w-full min-h-screen mx-auto">
 			<NavBar />
 			<SectionHero />
-			<main className="px-4_ max-w-7xl_">
+			<main>
 				<SectionTwo />
 				<SectionThreePopular />
 				<SectionFourDoctors />
