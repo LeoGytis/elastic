@@ -8,15 +8,17 @@ import NavBar from './components/ui/NavBar';
 
 function App() {
 	return (
-		<div className="relative flex flex-col w-full min-h-screen mx-auto">
+		<>
 			<NavBar />
-			<SectionHero />
-			<SectionTwo />
-			<SectionThreePopular />
-			<SectionFourAboutUs />
-			<SectionFiveNews />
-			<Footer />
-		</div>
+			<main>
+				<SectionHero />
+				<SectionTwo />
+				<SectionThreePopular />
+				<SectionFourAboutUs />
+				<SectionFiveNews />
+				<Footer />
+			</main>
+		</>
 	);
 }
 
