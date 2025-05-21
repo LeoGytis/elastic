@@ -1,4 +1,4 @@
-import WomenImage from '../../images/women.png';
+import WomenImage from '@/images/women.png';
 import Button from '../ui/Button';
 
 const SectionTwo = () => {

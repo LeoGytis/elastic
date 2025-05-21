@@ -1,4 +1,4 @@
-import HeroImage from '../../images/hero.png';
+import HeroImage from '@/images/hero.png';
 import Button from '../ui/Button';
 
 const SectionHero = () => {

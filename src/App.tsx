@@ -11,12 +11,10 @@ function App() {
 		<div className="relative flex flex-col w-full min-h-screen mx-auto">
 			<NavBar />
 			<SectionHero />
-			<main>
-				<SectionTwo />
-				<SectionThreePopular />
-				<SectionFourAboutUs />
-				<SectionFiveNews />
-			</main>
+			<SectionTwo />
+			<SectionThreePopular />
+			<SectionFourAboutUs />
+			<SectionFiveNews />
 			<Footer />
 		</div>
 	);
