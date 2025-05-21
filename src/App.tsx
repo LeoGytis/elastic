@@ -1,7 +1,7 @@
 import Footer from './components/pages/Footer';
+import SectionFiveNews from './components/sections/SectionFive/SectionFiveNews';
 import SectionFourAboutUs from './components/sections/SectionFour/SectionFourAboutUs';
 import SectionHero from './components/sections/SectionHero';
-import SectionSevenNews from './components/sections/SectionSevenNews';
 import SectionThreePopular from './components/sections/SectionThree/SectionThreePopular';
 import SectionTwo from './components/sections/SectionTwo';
 import NavBar from './components/ui/NavBar';
@@ -15,7 +15,7 @@ function App() {
 				<SectionTwo />
 				<SectionThreePopular />
 				<SectionFourAboutUs />
-				<SectionSevenNews />
+				<SectionFiveNews />
 			</main>
 			<Footer />
 		</div>
