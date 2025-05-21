@@ -6,7 +6,7 @@ const Doctors = () => {
 	return (
 		<article className="container relative flex flex-col items-center justify-center py-48 border border-rubinas">
 			<h3>Gydytojai</h3>
-			<h1>Komanda, kuri įsiklauso</h1>
+			<h1 className="mb-20">Komanda, kuri įsiklauso</h1>
 
 			<div className="w-full pb-20 max-w-7xl">
 				<Slider slidesToShow={3} autoSlideInterval={3000}>

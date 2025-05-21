@@ -1,6 +1,6 @@
-import ProcedureImage01 from '../../../images/procedure01.png';
-import ProcedureImage02 from '../../../images/procedure02.png';
-import ProcedureImage03 from '../../../images/procedure03.png';
+import ProcedureImage01 from '@/images/procedure01.png';
+import ProcedureImage02 from '@/images/procedure02.png';
+import ProcedureImage03 from '@/images/procedure03.png';
 
 interface ProcedureCardProps {
 	image: string;
