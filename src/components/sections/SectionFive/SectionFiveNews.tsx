@@ -9,9 +9,9 @@ const SectionSevenNews = () => {
 			<img
 				src={FooterImage}
 				alt="footer-bg"
-				className="object-cover w-full aspect-[3]_ h-1/2_"
+				className="object-cover w-full max-lg:h-[50dvh]"
 			/>
-			<div className="absolute w-3/5 mx-auto translate-x-1/2 right-1/2 -bottom-20">
+			<div className="absolute w-5/6 mx-auto translate-x-1/2 lg:w-3/5 right-1/2 -bottom-20">
 				<Subscribe />
 			</div>
 		</section>

@@ -2,7 +2,7 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<footer className="flex flex-col w-full gap-24 px-12 mx-auto bg-perlas md:px-24 pt-96">
+		<footer className="flex flex-col w-full gap-24 px-12 pb-16 mx-auto bg-perlas md:px-12 pt-[236px] text-rubinas">
 			{/* Left: Contact & Locations */}
 			<div className="flex justify-between gap-12 min-w-[250px] flex-1">
 				<div>

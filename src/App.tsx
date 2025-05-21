@@ -1,4 +1,4 @@
-import Footer from './components/pages/Footer';
+import Footer from './components/Footer';
 import SectionFiveNews from './components/sections/SectionFive/SectionFiveNews';
 import SectionFourAboutUs from './components/sections/SectionFour/SectionFourAboutUs';
 import SectionHero from './components/sections/SectionHero';
