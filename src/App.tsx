@@ -1,6 +1,5 @@
 import Footer from './components/pages/Footer';
 import SectionFiveAboutUs from './components/sections/SectionFiveAboutUs';
-import SectionFourDoctors from './components/sections/SectionFourthDoctors';
 import SectionHero from './components/sections/SectionHero';
 import SectionTwo from './components/sections/SectionSecond';
 import SectionSevenNews from './components/sections/SectionSevenNews';
@@ -16,7 +15,7 @@ function App() {
 			<main>
 				<SectionTwo />
 				<SectionThreePopular />
-				<SectionFourDoctors />
+				{/* <SectionFourDoctors /> */}
 				<SectionFiveAboutUs />
 				<SectionSixLocations />
 				<SectionSevenNews />

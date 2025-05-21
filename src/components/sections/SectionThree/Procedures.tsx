@@ -18,7 +18,7 @@ const ProcedureCard = ({image, title, className = ''}: ProcedureCardProps) => {
 				alt={title}
 				className="object-cover w-full h-full"
 			/>
-			<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center text-2xl font-medium px-2 lg:px-6">
+			<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center lg:text-2xl font-medium px-2 lg:px-6">
 				{title}
 			</div>
 		</div>

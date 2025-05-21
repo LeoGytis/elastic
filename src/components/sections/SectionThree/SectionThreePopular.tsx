@@ -1,3 +1,4 @@
+import Doctors from './Doctors';
 import Procedures from './Procedures';
 import Services from './Services';
 
@@ -9,6 +10,7 @@ const SectionThreePopular = () => {
 			<div className="container flex flex-col items-center justify-center gap-20 lg:gap-40">
 				<Procedures />
 				<Services />
+				<Doctors />
 			</div>
 		</section>
 	);
