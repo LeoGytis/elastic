@@ -11,10 +11,14 @@ interface ProcedureCardProps {
 const ProcedureCard = ({image, title, className = ''}: ProcedureCardProps) => {
 	return (
 		<div
-			className={`relative flex justify-end w-full md:w-1/3 ${className}`}
+			className={`relative flex justify-end w-full lg:w-1/3 ${className}`}
 		>
-			<img src={image} alt={title} />
-			<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center justify-center text-2xl font-medium">
+			<img
+				src={image}
+				alt={title}
+				className="object-cover w-full h-full"
+			/>
+			<div className="absolute right-0 w-2/3 h-full border-l border-perlas backdrop-blur-[6px] flex items-center text-2xl font-medium px-2 lg:px-6">
 				{title}
 			</div>
 		</div>
@@ -23,11 +27,11 @@ const ProcedureCard = ({image, title, className = ''}: ProcedureCardProps) => {
 
 const Procedures = () => {
 	return (
-		<>
+		<article className="flex flex-col items-center justify-center">
 			<h3 className="mb-4">Dažniausi pasirinkimai</h3>
 			<h1 className="mb-6">Populiariausios procedūros</h1>
 
-			<div className="flex items-center justify-center w-full gap-12 px-8 mb-40 max-md:flex-col">
+			<div className="flex items-center justify-center w-full gap-12 max-md:flex-col">
 				<ProcedureCard
 					image={ProcedureImage01}
 					title="Plaukų persodinimas"
@@ -42,7 +46,7 @@ const Procedures = () => {
 					title="Frakcinis odos atnaujinimas"
 				/>
 			</div>
-		</>
+		</article>
 	);
 };
 

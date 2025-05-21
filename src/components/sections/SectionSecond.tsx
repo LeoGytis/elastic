@@ -36,7 +36,7 @@ const SectionTwo = () => {
 					</div>
 				</div>
 			</div>
-			<span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] h-[5%] bg-rubinas"></span>
+			<span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] lg:h-24 h-16 bg-rubinas"></span>
 		</section>
 	);
 };
