@@ -5,7 +5,7 @@ import SectionHero from './components/sections/SectionHero';
 import SectionTwo from './components/sections/SectionSecond';
 import SectionSevenNews from './components/sections/SectionSevenNews';
 import SectionSixLocations from './components/sections/SectionSixLocations';
-import SectionThreePopular from './components/sections/SectionThirdPopular';
+import SectionThreePopular from './components/sections/SectionThree/SectionThreePopular';
 import NavBar from './components/ui/NavBar';
 
 function App() {
