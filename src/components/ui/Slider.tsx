@@ -53,15 +53,12 @@ export const Slider: React.FC<SliderProps> = ({
 			<div
 				className="flex transition-transform duration-1000 ease-in-out"
 				style={{
-					transform: `translateX(-${currentIndex * (100 / 3)}%)`,
+					transform: `translateX(-${currentIndex * 100}%)`,
 				}}
 				onTransitionEnd={handleTransitionEnd}
 			>
 				{duplicatedChildren.map((child, index) => (
-					<div
-						key={index}
-						className="flex-shrink-0 w-1/3 md:w-1/5 lg:w-1/4"
-					>
+					<div key={index} className="flex-shrink-0 w-full md:w-1/5">
 						{child}
 					</div>
 				))}
