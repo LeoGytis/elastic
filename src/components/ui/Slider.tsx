@@ -3,31 +3,28 @@ import React, {useCallback, useEffect, useState} from 'react';
 interface SliderProps {
 	children: React.ReactNode;
 	className?: string;
-	slidesToShow?: number;
 	autoSlideInterval?: number;
 }
 
 export const Slider: React.FC<SliderProps> = ({
 	children,
 	className = '',
-	slidesToShow = 3,
 	autoSlideInterval = 3000,
 }) => {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const childrenArray = React.Children.toArray(children);
 
-	// Create a duplicated array for infinite scroll effect
 	const duplicatedChildren = [
 		...childrenArray,
 		...childrenArray,
 		...childrenArray,
 	];
+
 	const totalSlides = childrenArray.length;
 
 	const nextSlide = useCallback(() => {
 		setCurrentIndex((prevIndex) => {
 			const nextIndex = prevIndex + 1;
-			// Reset to the middle set of slides when reaching the end
 			if (nextIndex >= totalSlides * 2) {
 				return totalSlides;
 			}
@@ -43,7 +40,6 @@ export const Slider: React.FC<SliderProps> = ({
 		return () => clearInterval(interval);
 	}, [currentIndex, autoSlideInterval, nextSlide]);
 
-	// Handle the transition end to create seamless infinite scroll
 	const handleTransitionEnd = () => {
 		if (currentIndex >= totalSlides * 2) {
 			setCurrentIndex(totalSlides);
@@ -58,17 +54,13 @@ export const Slider: React.FC<SliderProps> = ({
 				className="flex transition-transform duration-1000 ease-in-out"
 				style={{
 					transform: `translateX(-${
-						currentIndex * (100 / slidesToShow)
+						currentIndex * (100 / (window.innerWidth < 768 ? 3 : 6))
 					}%)`,
 				}}
 				onTransitionEnd={handleTransitionEnd}
 			>
 				{duplicatedChildren.map((child, index) => (
-					<div
-						key={index}
-						className="flex-shrink-0"
-						style={{width: `${100 / slidesToShow}%`}}
-					>
+					<div key={index} className="flex-shrink-0 w-1/3 md:w-1/6">
 						{child}
 					</div>
 				))}

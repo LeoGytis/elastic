@@ -1,10 +1,9 @@
 import Footer from './components/pages/Footer';
-import SectionFiveAboutUs from './components/sections/SectionFiveAboutUs';
+import SectionFourAboutUs from './components/sections/SectionFour/SectionFourAboutUs';
 import SectionHero from './components/sections/SectionHero';
-import SectionTwo from './components/sections/SectionSecond';
 import SectionSevenNews from './components/sections/SectionSevenNews';
-import SectionSixLocations from './components/sections/SectionSixLocations';
 import SectionThreePopular from './components/sections/SectionThree/SectionThreePopular';
+import SectionTwo from './components/sections/SectionTwo';
 import NavBar from './components/ui/NavBar';
 
 function App() {
@@ -15,9 +14,7 @@ function App() {
 			<main>
 				<SectionTwo />
 				<SectionThreePopular />
-				{/* <SectionFourDoctors /> */}
-				<SectionFiveAboutUs />
-				<SectionSixLocations />
+				<SectionFourAboutUs />
 				<SectionSevenNews />
 			</main>
 			<Footer />
