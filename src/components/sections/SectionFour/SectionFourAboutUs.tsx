@@ -3,7 +3,7 @@ import Locations from './Locations';
 
 const SectionFourAboutUs = () => {
 	return (
-		<section className="relative flex flex-col gap-40 lg:gap-[363px] items-center justify-center w-full py-16 lg:py-40 bg-perlas">
+		<section className="relative flex flex-col items-center justify-center w-full gap-40 py-16 lg:gap-80 lg:py-40 bg-perlas">
 			<AboutUs />
 			<Locations />
 		</section>

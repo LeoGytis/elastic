@@ -5,13 +5,13 @@ import NewsImage03 from '@/images/news03.png';
 
 const News = () => {
 	return (
-		<article className="container relative flex flex-col items-center justify-center text-perlas py-16 lg:py-[120px]">
+		<article className="container relative flex flex-col items-center justify-center py-16 text-perlas lg:py-32">
 			<h3>Įžvalgos</h3>
 			<h1 className="max-w-xl pt-4 pb-10 text-center lg:pb-20">
 				Naujienos iš estetinės medicinos pasaulio
 			</h1>
 
-			<div className="flex flex-col w-full gap-10 pb-20 mt-12 lg:gap-40 md:flex-row">
+			<div className="flex flex-col w-full gap-12 lg:gap-40 md:flex-row">
 				{/* News Card 1 */}
 				<div className="flex flex-col flex-1 gap-4">
 					<img
@@ -63,7 +63,7 @@ const News = () => {
 					</p>
 				</div>
 			</div>
-			<Button variant="light" className="bg-transparent">
+			<Button variant="light" className="mt-16 bg-transparent lg:mt-20">
 				Visos naujienos
 			</Button>
 		</article>

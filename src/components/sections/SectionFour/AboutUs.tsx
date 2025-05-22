@@ -5,7 +5,7 @@ import AboutUsImage03 from '@/images/about-us03.png';
 const SectionFourAboutUs = () => {
 	return (
 		<article className="container relative flex flex-col items-center justify-center text-rubinas">
-			<h3 className="pb-6">Apie mus</h3>
+			<h3 className="z-10 pb-6">Apie mus</h3>
 			<h1 className="z-10 max-w-6xl italic text-center ">
 				Grožio procedūros, odos priežiūra ir estetiniai sprendimai - tai
 				mūsų siūlomos paslaugos, padedančios puoselėti Jūsų išvaizdą.

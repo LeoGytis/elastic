@@ -12,7 +12,7 @@ const ServiceCard = ({title}: ServiceCardProps) => {
 
 const SectionThreePopular = () => {
 	return (
-		<article className="flex flex-col items-center justify-center gap-10 text-center lg:w-2/3">
+		<article className="flex flex-col items-center justify-center w-full max-w-6xl gap-10 text-center">
 			<h3 className="w-full border-b pb-14 border-border/20">
 				Paslaugos
 			</h3>
