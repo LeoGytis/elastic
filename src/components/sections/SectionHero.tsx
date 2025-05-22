@@ -14,20 +14,17 @@ const SectionHero = () => {
 			</div>
 
 			<div className="absolute inset-0 z-10">
-				<div className="grid grid-cols-[80fr_144fr_20fr] lg:grid-cols-[144fr_121fr_23fr] grid-rows-3 h-full">
+				<div className="grid grid-cols-[16fr_160fr_16fr] lg:grid-cols-[150fr_140fr_16fr] grid-rows-3 h-full">
 					<div className="border border-perlas"></div>
 					<div className="border border-perlas"></div>
 					<div className="border border-perlas"></div>
 					<div className="border border-perlas"></div>
 					<div className="flex flex-col justify-between px-8 py-6 border border-white bg-white/10 backdrop-blur-md">
-						<h1 className="text-white">
+						<h1 className="text-white max-lg:text-4xl">
 							Estetikos patirtis, kuria <br />
 							pasitikėti - lengva
 						</h1>
-						<Button
-							variant="dark"
-							className="max-lg:-translate-x-1/2 hover:bg-blue-50 w-fit max-lg:absolute -bottom-6 left-1/2"
-						>
+						<Button variant="dark" className="w-fit">
 							Registracija
 						</Button>
 					</div>
