@@ -3,13 +3,13 @@ import Button from '../ui/Button';
 
 const SectionTwo = () => {
 	return (
-		<section className="relative flex flex-col items-center justify-center w-full pt-[250px] sm:pt-[350px] md:pt-[450px] lg:pt-[350px] xl:pt-[500px] 2xl:pt-[709px] pb-32 lg:pb-[357px] bg-perlas">
+		<section className="relative flex flex-col items-center justify-center w-full py-32 sm:py-40 md:py-56 xl:py-72 bg-perlas">
 			<img
 				src={WomenImage}
 				alt="women_image"
-				className="absolute z-10 w-1/2 -translate-x-1/2 lg:w-1/3 -top-32 md:-top-56 lg:-top-48 left-1/2"
+				className="absolute top-0 z-10 w-1/3 -translate-x-1/2 -translate-y-1/2 lg:w-1/4 xl:w-1/5 left-1/2"
 			/>
-			<div className="relative flex flex-col items-center justify-center w-full px-8 lg:max-w-6xl">
+			<div className="relative flex flex-col items-center justify-center w-full px-8 max-w-8xl">
 				<h1 className="lg:text-[64px] text-center text-rubinas mb-8 text-wrap">
 					Veido atjauninimo procedūros, odos stangrinimas ir
 					estetiniai patobulinimai - mūsų procedūros sukurtos Jums.
@@ -36,7 +36,7 @@ const SectionTwo = () => {
 					</div>
 				</div>
 			</div>
-			<span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] lg:h-24 h-16 bg-rubinas"></span>
+			<span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1px] lg:h-24 h-10 bg-rubinas"></span>
 		</section>
 	);
 };

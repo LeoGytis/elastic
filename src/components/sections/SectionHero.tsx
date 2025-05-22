@@ -3,18 +3,16 @@ import Button from '../ui/Button';
 
 const SectionHero = () => {
 	return (
-		<section className="relative flex items-center w-full max-lg:h-dvh aspect-[1.23]">
-			<div className="absolute inset-0 z-0">
-				<img
-					src={HeroImage}
-					alt="hero_image"
-					className="object-cover w-full h-full"
-				/>
-				<div className="absolute inset-0" />
-			</div>
+		<section className="relative flex items-center w-full h-dvh aspect-[1.23]">
+			<img
+				src={HeroImage}
+				alt="hero_image"
+				className="object-cover w-full h-full"
+			/>
+			<div className="absolute inset-0 z-0" />
 
 			<div className="absolute inset-0 z-10">
-				<div className="grid grid-cols-[16fr_160fr_16fr] lg:grid-cols-[150fr_140fr_16fr] grid-rows-3 h-full">
+				<div className="grid grid-cols-[16fr_160fr_16fr] lg:grid-cols-[150fr_140fr_16fr] max-lg:grid-rows-[1fr_2fr_1fr] h-full">
 					<div></div>
 					<div className="border-perlas border-x"></div>
 					<div className=""></div>
@@ -30,7 +28,7 @@ const SectionHero = () => {
 					</div>
 					<div className="border-y border-perlas"></div>
 					<div></div>
-					<div className="border border-t-0 border-perlas"></div>
+					<div className="border-perlas border-x"></div>
 					<div></div>
 				</div>
 			</div>
