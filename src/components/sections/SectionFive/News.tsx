@@ -5,9 +5,9 @@ import NewsImage03 from '@/images/news03.png';
 
 const News = () => {
 	return (
-		<article className="container relative flex flex-col items-center justify-center px-12 text-perlas py-16 lg:py-[120px]">
+		<article className="container relative flex flex-col items-center justify-center text-perlas py-16 lg:py-[120px]">
 			<h3>Įžvalgos</h3>
-			<h1 className="max-w-xl pt-4 text-center pb-10lg:pb-20">
+			<h1 className="max-w-xl pt-4 pb-10 text-center lg:pb-20">
 				Naujienos iš estetinės medicinos pasaulio
 			</h1>
 

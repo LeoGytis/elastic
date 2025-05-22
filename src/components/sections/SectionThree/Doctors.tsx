@@ -4,7 +4,7 @@ import {doctorsData} from './doctorsData';
 
 const Doctors = () => {
 	return (
-		<article className=" flex flex-col items-center h-[900px]">
+		<article className="flex flex-col items-center ">
 			<h3>Gydytojai</h3>
 			<h1 className="pb-10">Komanda, kuri įsiklauso</h1>
 
@@ -31,7 +31,7 @@ const Doctors = () => {
 				</Slider>
 			</div>
 
-			<Button variant="light" className="mt-28">
+			<Button variant="light" className="my-8 lg:mt-28">
 				Visi gydytojai
 			</Button>
 		</article>

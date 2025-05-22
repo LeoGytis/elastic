@@ -32,8 +32,12 @@ h1 {
 	font-size: 48px;
 	line-height: 120%;
 	letter-spacing: -0.04em;
+	text-align: center;
 	@media screen and (max-width: 1024px) {
 		font-size: 32px;
+	}
+	@media screen and (max-width: 768px) {
+		font-size: 24px;
 	}
 }
 
@@ -43,8 +47,12 @@ h2 {
 	font-size: 48px;
 	line-height: 120%;
 	letter-spacing: -0.04em;
+	text-align: center;
 	@media screen and (max-width: 1024px) {
 		font-size: 32px;
+	}
+	@media screen and (max-width: 768px) {
+		font-size: 24px;
 	}
 }
 

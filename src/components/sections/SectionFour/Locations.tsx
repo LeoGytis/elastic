@@ -4,7 +4,7 @@ import VilniusImage from '@/images/vilnius.png';
 
 const Locations = () => {
 	return (
-		<article className="container relative flex flex-col items-center justify-center px-6 text-rubinas">
+		<article className="container relative flex flex-col items-center justify-center text-rubinas">
 			<h3 className="pb-6">Lokacijos</h3>
 			<h1 className="max-w-xl pb-20 text-center">
 				Galite apsilankyti Jums patogiausioje klinikoje

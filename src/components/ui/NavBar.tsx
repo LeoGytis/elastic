@@ -1,6 +1,6 @@
 import {Search} from 'lucide-react';
 import {ReactNode, useState} from 'react';
-import {FaBars} from 'react-icons/fa';
+import {RxHamburgerMenu} from 'react-icons/rx';
 import Button from './Button';
 
 interface NavLinkProps {
@@ -27,9 +27,8 @@ const NavBar = () => {
 	};
 
 	return (
-		<nav className="top-0 left-0 right-0 z-50 w-full mx-auto bg-transparent lg:pt-6 lg:fixed lg:px-12">
+		<nav className="fixed top-0 left-0 right-0 z-50 w-full px-2 pt-2 mx-auto bg-transparent lg:pt-6 lg:px-12 max-w-8xl">
 			<div className="relative flex items-center justify-between w-full px-8 py-2 mx-auto rounded-md shadow max-lg:flex-col bg-perlas">
-				{/* Left side navigation items */}
 				<div
 					className={`flex items-center px-4 lg:gap-4 max-lg:flex-col ${
 						!isMobileMenuOpen ? 'max-lg:hidden' : ''
@@ -41,12 +40,11 @@ const NavBar = () => {
 					<NavLink href="/naujienos">Naujienos</NavLink>
 				</div>
 
-				{/* Right side items */}
 				<div className="flex items-center gap-2 max-lg:flex-col min-h-8">
 					<Button
 						variant="light"
 						size="small"
-						className="border-none top-2 left-2 max-lg:absolute"
+						className="border-none top-2 left-2 max-lg:absolute max-lg:p-2"
 					>
 						<Search className="size-[15px]" />
 					</Button>
@@ -71,15 +69,15 @@ const NavBar = () => {
 					<Button
 						variant="light"
 						size="small"
-						className="border-none top-3 right-10 max-lg:absolute max-md:p-1"
+						className="border-none top-2 right-10 max-lg:absolute max-lg:p-1 lg:hidden"
 						onClick={toggleMobileMenu}
 					>
-						<FaBars className="size-5" />
+						<RxHamburgerMenu className="size-5" />
 					</Button>
 					<Button
 						variant="light"
 						size="small"
-						className="border-none top-3 right-2 max-lg:absolute max-md:p-1"
+						className="border-none top-2 right-2 max-lg:absolute max-lg:p-1"
 					>
 						EN
 					</Button>
