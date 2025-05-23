@@ -2,7 +2,11 @@
 
 A modern and responsive React LandingPage built with TypeScript and styled using Tailwind CSS.
 
-## Tech Stack
+### Live Demo
+
+[https://leogytis.github.io/elastic/](https://leogytis.github.io/elastic/)
+
+### Tech Stack
 
 -   **Frontend Framework**: React 19
 -   **Language**: TypeScript
